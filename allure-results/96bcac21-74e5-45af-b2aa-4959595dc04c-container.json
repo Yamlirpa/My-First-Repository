@@ -1,0 +1,1 @@
+{"uuid":"96bcac21-74e5-45af-b2aa-4959595dc04c","name":"Tesing.TC_001","children":["25494b9c-de08-4070-88ee-911d55197a86"],"befores":[{"name":"launch_application","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1696960926548,"stop":1696960926574}],"afters":[],"start":1696960926491,"stop":1696960926873}

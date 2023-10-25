@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testScripts.StackoverflowTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Search_box"/>
+          <include name="test_For_Teams_link"/>
+          <include name="test_the_Aboutheader_link"/>
+          <include name="setUp"/>
+          <include name="test_theLogo"/>
+          <include name="test_the_Log_in_button"/>
+          <include name="test_the_Products_link"/>
+        </methods>
+      </class> <!-- testScripts.StackoverflowTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
