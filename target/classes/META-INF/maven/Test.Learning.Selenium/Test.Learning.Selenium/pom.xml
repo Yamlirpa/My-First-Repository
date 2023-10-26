@@ -55,9 +55,7 @@
 
                     <!-- This is For TestNG maven Run -->
                     <suiteXmlFiles>
-               <!--         <suiteXmlFile>testNG.xml</suiteXmlFile> --> <!--This is For TestNG Run-->
-                        <suiteXmlFile>testNG/Childsupport.xml</suiteXmlFile>  <!--This is For Rest Assured Run-->
-                    </suiteXmlFiles>
+                                </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
