@@ -54,7 +54,7 @@ public class Reusable {
 
 		String value = null;
 		try {
-			FileReader reader = new FileReader("C:\\Eclipse_Project\\Test.learning.selenium\\testData.properties");
+			FileReader reader = new FileReader(System. getProperty("user. dir")+"\\testData.properties");
 			Properties prop = new Properties();
 			prop.load(reader);
 			value = prop.getProperty(key);
