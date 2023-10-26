@@ -48,7 +48,7 @@ public class StackoverflowTest {
 	@Test(priority=5)
 	public void Search_box(){
 		Assert.assertTrue(driver.findElement(By.xpath("//input[@name='q']")).isDisplayed());
-		alert.sendKeys("Search Text");
+	//	alert.sendKeys("Search Text");
 	}
 	@Test(priority=6)
 	public void test_the_Log_in_button(){
@@ -57,7 +57,7 @@ public class StackoverflowTest {
 	}
 	@AfterClass
 	public void tearDown(){
-//		driver.quit();
+		driver.quit();
 	}
 
 }
